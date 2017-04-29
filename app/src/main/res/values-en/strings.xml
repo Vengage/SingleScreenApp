@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cofetaria Piticot</string>
+    <string name="address">Street Petre Ispirescu, nr.77</string>
+    <string name="hours">Hours</string>
+    <string name="motivation">Motivation</string>
+    <string name="motivation_text">Cofetaria Piticot represents a wish come true of some people passioned about the velvety flavours of traditional cakes. We use only natural ingredients and traditional methods of preparing sweets and pastry products.</string>
+    <string name="subject">Subject</string>
+    <string name="email_body">Write here the email.</string>
+    <string name="greetings_text">We wait you from 10:00 to 21:30 on mondays and from 08:00 to 21:30 for the rest of the week.</string>
+</resources>

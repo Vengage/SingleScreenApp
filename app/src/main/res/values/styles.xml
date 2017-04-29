@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for information boxes -->
+    <style name="informationBoxes">
+        <item name="android:layout_marginTop">@dimen/padding_margin_16dp</item>
+        <item name="android:layout_marginLeft">@dimen/padding_margin_16dp</item>
+        <item name="android:layout_marginRight">@dimen/padding_margin_16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style for TextView inside the information boxes -->
+    <style name="informationBoxesTextView">
+        <item name="android:paddingBottom">@dimen/padding_margin_8dp</item>
+        <item name="android:paddingTop">@dimen/padding_margin_8dp</item>
+        <item name="android:paddingRight">@dimen/padding_margin_16dp</item>
+        <item name="android:paddingLeft">@dimen/padding_margin_16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style for  layouts with title and text information -->
+    <style name="textInformationBoxes">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_16dp</item>
+        <item name="android:paddingTop">@dimen/padding_margin_16dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_32sp</item>
+    </style>
+
+    <!-- Style for TextView inside the two layouts which text information -->
+    <style name="textInformationBoxesTextView">
+        <item name="android:layout_marginLeft">@dimen/padding_margin_16dp</item>
+        <item name="android:layout_marginRight">@dimen/padding_margin_16dp</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:paddingBottom">@dimen/padding_margin_16dp</item>
+        <item name="android:paddingTop">@dimen/padding_margin_16dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+    </style>
+</resources>

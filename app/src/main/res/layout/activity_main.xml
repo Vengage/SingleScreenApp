@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.student.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cofetaria_pititcot"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_margin_16dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_32sp"/>
+
+        <!-- Informations -->
+        <!-- Information Web Address -->
+        <LinearLayout
+            style="@style/informationBoxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToWebsite">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_8dp"
+                android:src="@drawable/ic_earth_black_24dp"/>
+
+            <TextView
+                style="@style/informationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website_address"/>
+        </LinearLayout>
+
+        <!-- Information Email -->
+        <LinearLayout
+            style="@style/informationBoxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendEmail">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_8dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+
+            <TextView
+                style="@style/informationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"/>
+        </LinearLayout>
+
+        <!-- Information Location -->
+        <LinearLayout
+            style="@style/informationBoxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToLocation">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_8dp"
+                android:src="@drawable/ic_place_black_24dp"/>
+
+            <TextView
+                style="@style/informationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"/>
+        </LinearLayout>
+
+        <!-- Information Phone Number -->
+        <LinearLayout
+            style="@style/informationBoxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="call">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_margin_8dp"
+                android:src="@drawable/ic_call_black_24dp"/>
+
+            <TextView
+                style="@style/informationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_nr"/>
+
+        </LinearLayout>
+
+
+        <!-- Motivation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_margin_16dp"
+            android:layout_marginRight="@dimen/padding_margin_16dp"
+            android:layout_marginTop="@dimen/padding_margin_16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/textInformationBoxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/motivation"/>
+
+            <TextView
+                style="@style/textInformationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/motivation_text"
+                />
+        </LinearLayout>
+
+        <!-- Hours -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_margin_16dp"
+            android:layout_marginLeft="@dimen/padding_margin_16dp"
+            android:layout_marginRight="@dimen/padding_margin_16dp"
+            android:layout_marginTop="@dimen/padding_margin_16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textInformationBoxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hours"/>
+
+            <TextView
+                style="@style/textInformationBoxesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/greetings_text"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cofetăria Piticot</string>
+
+    <string name="greetings_text">Vă așteptăm luni între 10:00 și 21:30 și de la 08:00 la 21:30 în restul săptămânii.</string>
+
+    <string name="motivation_text">Cofetăria Piticot reprezintă îndeplinirea unui vis frumos al unor oameni pasionați de aromele catifelate ale prăjiturilor tradiționale. Folosim doar ingrediente naturale și metode tradiționale de preparare a dulciurilor și produselor de patiserie.</string>
+
+    <string name="address">Strada Petre Ispirescu, nr. 77</string>
+    <string name="subject">Subiect</string>
+    <string name="email_body">Scrie aici textul email-ului.</string>
+
+    <string name="hours">Program de lucru</string>
+    <string name="motivation">Motivație</string>
+</resources>
